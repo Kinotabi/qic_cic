@@ -19,6 +19,15 @@
 - Possion 분포 하에서 1000개의 sample에 4개 시점, 시점에 따른 변수 X를 가정함. Correlation structure는 Compound Symmetry로 설정
 - Compound Symmetry는 본질적으로 exchangeable과 구조가 같으므로, CIC와 QIC가 올바르게 기능한다면 exchangeable 구조를 선호할 것
 
-**QIC formula (Hin & Wang, 2009)**
+**Result**
 
-![Screen Shot 2022-03-23 at 4.44.20 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71bd6a54-08d3-4af3-83e6-e7d5214e6a52/Screen_Shot_2022-03-23_at_4.44.20_PM.png)
+- QIC와 CIC 값은 낮을수록 선호됨
+- QIC의 경우 Category-exchangeable, CIC의 경우 time-exchangeabe 구조를 선호하는 것으로 나타남
+- CIC는 선행연구에서 제안하는 바에 따른 결과를 나타내었으나, 더 많은 replication으로 추가 검증이 필요할 것으로 보임
+
+**Reference**
+
+Pan, W. (2001). Akaike's information criterion in generalized estimating equations. *Biometrics*
+, *57*(1), 120-125.
+
+Hin, L. Y., & Wang, Y. G. (2009). Working‐correlation‐structure identification in generalized estimating equations. *Statistics in medicine*, *28*(4), 642-658.
